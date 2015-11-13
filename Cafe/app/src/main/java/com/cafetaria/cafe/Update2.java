@@ -51,7 +51,7 @@ public class Update2 extends Activity{
                 price = res.getString(2);
                 details = res.getString(3);
                 etName.setText(details);
-                int idd = getResources().getIdentifier("spate149_a6.cs442.com:mipmap/d" + String.valueOf(id), null, null);
+                int idd = getResources().getIdentifier("com.cafetaria.cafe:mipmap/d" + String.valueOf(id), null, null);
                 im.setImageResource(idd);
                 //etPrice.setText(price);
                // etDesc.setText(details);
