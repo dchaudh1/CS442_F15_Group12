@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+       <ListView
+           android:layout_width="wrap_content"
+           android:layout_height="0dp"
+           android:layout_weight="1"
+           android:id="@+id/listView"
+           android:padding="10dp"
+           android:width="0dip"
+           android:scrollbars="vertical"
+           android:fadingEdge="vertical"
+           android:clickable="true" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+       <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:id="@+id/button3"
+            android:onClick="callAdd"
+            android:textColor="#0000FF"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:onClick="callDelete"
+            android:id="@+id/button4"
+            android:textColor="#0000FF"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:onClick="callUpdate"
+            android:id="@+id/button5"
+            android:textColor="#0000FF"/>
+</LinearLayout>
+
+</LinearLayout>

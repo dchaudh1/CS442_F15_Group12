@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="skallaje.cafeteria_app.cs442.com.AddItemActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="ITEM"
+        android:id="@+id/item"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/price" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="PRICE"
+        android:id="@+id/price"
+        android:layout_below="@+id/item"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/desc" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="DESCRIPTION"
+        android:id="@+id/desc"
+        android:layout_below="@+id/price"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:textColor="#0000FF"
+        android:id="@+id/select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/desc"
+        android:onClick="loadImagefromGallery"
+        android:text="Upload Image"
+        android:layout_alignRight="@+id/desc" />
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+    </ImageView>
+
+    <Button
+        android:textColor="#0000FF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Item"
+        android:id="@+id/button6"
+        android:onClick="addNew"
+        android:layout_below="@+id/select"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/select" />
+
+</RelativeLayout>
