@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/e23114/Downloads/CafeteriaApp_Team_12/app/libs/PayPalAndroidSDK.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c826d32d47ffa1ed9c0dce20c66e4bf073699be3">
+        <dex dex="/Users/e23114/Downloads/CafeteriaApp_Team_12/app/build/intermediates/pre-dexed/debug/PayPalAndroidSDK-798918eddbc5120be553285b5e412bb747de1ca2.jar" />
+    </item>
+    <item
+        jar="/Users/e23114/Downloads/CafeteriaApp_Team_12/app/libs/android-support-v4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ded9acc6a9792b8f1afc470f0c9cd36d178914cd">
+        <dex dex="/Users/e23114/Downloads/CafeteriaApp_Team_12/app/build/intermediates/pre-dexed/debug/android-support-v4-1fcf4348971686d698da426543cbfe37b92c3a0c.jar" />
+    </item>
+
+</items>

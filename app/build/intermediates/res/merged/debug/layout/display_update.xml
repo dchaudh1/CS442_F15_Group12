@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context=".Update2"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/imageView" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text=""
+        android:textSize="20dp"
+        android:layout_weight="0.60" />
+
+
+
+    <Button
+        android:layout_width="191dp"
+        android:layout_height="wrap_content"
+        android:text="Add to Cart"
+        android:textSize="25dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnUpdate"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#fffcfa"
+        android:background="#930e0b" />
+
+
+</LinearLayout><!-- From: file:/Users/e23114/Downloads/CafeteriaApp_Team_12/app/src/main/res/layout/display_update.xml -->
